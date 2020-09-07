@@ -2,5 +2,5 @@ using CoolPkg
 using Test
 
 @testset "CoolPkg.jl" begin
-    # Write your tests here.
+    @test add2(1,2) == 3
 end
