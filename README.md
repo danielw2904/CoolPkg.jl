@@ -28,4 +28,4 @@ To register your package:
 
 1. [Install the Registrator](https://github.com/JuliaRegistries/Registrator.jl)
 2. Comment `@JuliaRegistrator register` on the commit you would like to register ([see e.g. here](https://github.com/danielw2904/JSONLines.jl/commit/3f62edfb109b45dda76d6919b31f548aa7b571e1#commitcomment-41528865))
-        2.2 Your repo should have TagBot enabled so the package version will be added to your repo after the registration [see .github/workflows/TagBot.yml](.github/workflows/TagBot.yml) which will also enable the "stable" documentation link.
+3. Your repo should have TagBot enabled so the package version will be added to your repo after the registration [see .github/workflows/TagBot.yml](.github/workflows/TagBot.yml) which will also enable the "stable" documentation link.
