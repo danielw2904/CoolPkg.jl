@@ -10,7 +10,9 @@ t("CoolPkg.jl")
 
 using DocumenterTools
 
+# This is necessary for the Documentation to deploy to github pages
 DocumenterTools.genkeys(user="danielw2904", repo="CoolPkg.jl")
+
 # Follow instructions:
 # 1. Copy first SSH key to link generated
 # URL looks like:
@@ -25,3 +27,4 @@ DocumenterTools.genkeys(user="danielw2904", repo="CoolPkg.jl")
 # Key are random characters
 # Give it the name "DOCUMENTER_KEY"
 
+# Once Actions have finished you will have "dev" docs. "stable" docs are added once you tag a version (either by registering in the JuliaRegistries or manually).

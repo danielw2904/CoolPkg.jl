@@ -21,3 +21,5 @@ Default git config:
         fetch = refs/heads/master
         push = refs/heads/master
 ```
+
+For Documentation see [documentation page](https://danielw2904.github.io/CoolPkg.jl/dev/) and [docstring](https://github.com/danielw2904/CoolPkg.jl/blob/755590274fb62133d9e39ef232c69280f797dc94/src/CoolPkg.jl#LL5-L12).
