@@ -3,7 +3,10 @@ using PkgTemplates
 t = Template(user="danielw2904", # my github username
              dir = pwd(), # directory of package files
              julia=v"1.5.0", # minimum julia version
-             plugins=[Documenter{GitHubActions}(), GitHubActions()], # for documentation and testing
+             plugins=[Documenter{GitHubActions}(), # for documentation
+                        GitHubActions(), # for documentation building and testing
+                        Git(ssh = true, gpgsign = true) # use ssh in the git repo and sign commits with gpg key
+                        ] 
 )
 
 t("CoolPkg.jl")
